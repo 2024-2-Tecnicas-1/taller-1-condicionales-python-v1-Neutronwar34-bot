@@ -1,7 +1,13 @@
 def evaluar(numero1, numero2, numero3, numero4):
-    # TODO: Coloca aquí el código del ejercicio 5: Ordenamiento
-    return "";
+    lista = [numero1, numero2, numero3, numero4]
+    lista.sort()  
+    
+    
+    cadena = ' '.join(str(num) for num in lista)
+    #convertir a cadenas para luego unirlas con un espacio de por medio
 
+
+    return cadena
 if __name__ == '__main__':
     print("Número 1:", end="")
     numero1 = int(input())
